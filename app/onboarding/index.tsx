@@ -1,6 +1,7 @@
 import { ProgressIndicator } from "@/components/ProgressIndicator";
 import React, { useState } from "react";
-import { Dimensions, SafeAreaView, StyleSheet, View } from "react-native";
+import { Dimensions, StyleSheet, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import CareerPathingScreen from "./screens/CareerPathingScreen";
 import InterviewPrepScreen from "./screens/InterviewPrepScreen";
 import ResumeAnalysisScreen from "./screens/ResumeAnalysisScreen";
@@ -42,7 +43,7 @@ export default function OnboardingIndex() {
 }
 
 const styles = StyleSheet.create({
-	safe: { flex: 1, backgroundColor: "#fff" },
+	safe: { flex: 1, backgroundColor: "#151718" },
 	progressWrap: {
 		position: "absolute",
 		top: 16,

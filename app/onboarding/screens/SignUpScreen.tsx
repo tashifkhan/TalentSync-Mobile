@@ -110,7 +110,7 @@ const SignUpScreen: React.FC<Props> = ({ onBack }) => {
 								<Ionicons
 									name="logo-google"
 									size={18}
-									color="#111"
+									color="#ECEDEE"
 									style={{ marginRight: 8 }}
 								/>
 							}
@@ -121,7 +121,7 @@ const SignUpScreen: React.FC<Props> = ({ onBack }) => {
 								<Ionicons
 									name="logo-github"
 									size={18}
-									color="#111"
+									color="#ECEDEE"
 									style={{ marginRight: 8 }}
 								/>
 							}
@@ -132,7 +132,7 @@ const SignUpScreen: React.FC<Props> = ({ onBack }) => {
 								<Ionicons
 									name="logo-linkedin"
 									size={18}
-									color="#111"
+									color="#ECEDEE"
 									style={{ marginRight: 8 }}
 								/>
 							}
@@ -140,7 +140,7 @@ const SignUpScreen: React.FC<Props> = ({ onBack }) => {
 						/>
 					</View>
 
-					<Text style={{ textAlign: "center", color: "#6B7280", fontSize: 13 }}>
+					<Text style={{ textAlign: "center", color: "#9BA1A6", fontSize: 13 }}>
 						Already have an account?{" "}
 						<Text style={{ color: "#0a7ea4", fontWeight: "600" }}>Log In</Text>
 					</Text>
@@ -155,7 +155,7 @@ const SignUpScreen: React.FC<Props> = ({ onBack }) => {
 };
 
 const styles = StyleSheet.create({
-	root: { flex: 1, padding: 20, backgroundColor: "#fff" },
+	root: { flex: 1, padding: 20, backgroundColor: "#151718" },
 	center: {
 		flex: 1,
 		alignItems: "center",
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
 		width: 96,
 		height: 96,
 		borderRadius: 24,
-		backgroundColor: "#F9FAFB",
+		backgroundColor: "#111418",
 		alignItems: "center",
 		justifyContent: "center",
 		shadowColor: "#0a7ea4",
@@ -176,37 +176,42 @@ const styles = StyleSheet.create({
 		shadowOffset: { width: 0, height: 6 },
 	},
 	textWrap: { gap: 6, maxWidth: 440, paddingHorizontal: 12 },
-	h1: { fontSize: 24, fontWeight: "800", color: "#111", textAlign: "center" },
-	body: { fontSize: 14, color: "#6B7280", textAlign: "center" },
+	h1: {
+		fontSize: 24,
+		fontWeight: "800",
+		color: "#ECEDEE",
+		textAlign: "center",
+	},
+	body: { fontSize: 14, color: "#9BA1A6", textAlign: "center" },
 	inputWrap: {
 		flexDirection: "row",
 		alignItems: "center",
-		backgroundColor: "#F3F4F6",
+		backgroundColor: "#111418",
 		borderWidth: 1,
-		borderColor: "#E5E7EB",
+		borderColor: "#23262B",
 		paddingHorizontal: 12,
 		borderRadius: 12,
 		height: 56,
 	},
-	input: { flex: 1, color: "#111", fontSize: 16 },
+	input: { flex: 1, color: "#ECEDEE", fontSize: 16 },
 	dividerWrap: {
 		flexDirection: "row",
 		alignItems: "center",
 		justifyContent: "center",
 		marginVertical: 6,
 	},
-	divider: { height: 1, backgroundColor: "#E5E7EB", flex: 1 },
+	divider: { height: 1, backgroundColor: "#23262B", flex: 1 },
 	socialBtn: {
 		height: 48,
 		borderRadius: 12,
 		borderWidth: 1,
-		borderColor: "#E5E7EB",
+		borderColor: "#23262B",
 		alignItems: "center",
 		justifyContent: "center",
 		flexDirection: "row",
 		gap: 8,
 	},
-	link: { fontSize: 13, color: "#6B7280" },
+	link: { fontSize: 13, color: "#9BA1A6" },
 });
 
 export default SignUpScreen;

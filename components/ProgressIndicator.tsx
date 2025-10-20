@@ -1,4 +1,3 @@
-import { Colors } from "@/constants/theme";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -38,10 +37,10 @@ const styles = StyleSheet.create({
 		justifyContent: "center",
 		gap: 8,
 	},
-	dot: { height: 8, width: 8, borderRadius: 999, backgroundColor: "#E5E7EB" },
-	dotPast: { backgroundColor: Colors.light.tint, opacity: 0.6 },
+	dot: { height: 8, width: 8, borderRadius: 999, backgroundColor: "#23262B" },
+	dotPast: { backgroundColor: "#67E8F9", opacity: 0.7 },
 	dotActive: {
-		backgroundColor: Colors.light.tint,
+		backgroundColor: "#67E8F9",
 		width: 28,
 		borderRadius: 999,
 	},

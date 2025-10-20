@@ -84,8 +84,8 @@ function getStyles(
 			break;
 		case "outline":
 			backgroundColor = "transparent";
-			borderColor = "#D1D5DB";
-			color = Colors.light.text;
+			borderColor = "#23262B";
+			color = "#ECEDEE";
 			break;
 	}
 
