@@ -12,7 +12,7 @@ interface Props {
 
 const Pill = ({ label }: { label: string }) => (
 	<View style={styles.pill}>
-		<Text style={{ color: "#111" }}>{label}</Text>
+		<Text style={{ color: "#ECEDEE" }}>{label}</Text>
 	</View>
 );
 

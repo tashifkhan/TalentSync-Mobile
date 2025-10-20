@@ -105,39 +105,39 @@ const SignUpScreen: React.FC<Props> = ({ onBack }) => {
 					</View>
 
 					<View style={{ gap: 10 }}>
-						<SocialBtn
-							icon={
-								<Ionicons
-									name="logo-google"
-									size={18}
-									color="#ECEDEE"
-									style={{ marginRight: 8 }}
-								/>
-							}
-							label="Continue with Google"
-						/>
-						<SocialBtn
-							icon={
-								<Ionicons
-									name="logo-github"
-									size={18}
-									color="#ECEDEE"
-									style={{ marginRight: 8 }}
-								/>
-							}
-							label="Continue with GitHub"
-						/>
-						<SocialBtn
-							icon={
-								<Ionicons
-									name="logo-linkedin"
-									size={18}
-									color="#ECEDEE"
-									style={{ marginRight: 8 }}
-								/>
-							}
-							label="Continue with LinkedIn"
-						/>
+						<View style={styles.socialBtn}>
+							<Ionicons
+								name="logo-google"
+								size={18}
+								color="#ECEDEE"
+								style={{ marginRight: 8 }}
+							/>
+							<Text style={{ fontWeight: "600", color: "#6B7280" }}>
+								Continue with Google
+							</Text>
+						</View>
+						<View style={styles.socialBtn}>
+							<Ionicons
+								name="logo-github"
+								size={18}
+								color="#ECEDEE"
+								style={{ marginRight: 8 }}
+							/>
+							<Text style={{ fontWeight: "600", color: "#6B7280" }}>
+								Continue with GitHub
+							</Text>
+						</View>
+						<View style={styles.socialBtn}>
+							<Ionicons
+								name="logo-linkedin"
+								size={18}
+								color="#ECEDEE"
+								style={{ marginRight: 8 }}
+							/>
+							<Text style={{ fontWeight: "600", color: "#6B7280" }}>
+								Continue with LinkedIn
+							</Text>
+						</View>
 					</View>
 
 					<Text style={{ textAlign: "center", color: "#9BA1A6", fontSize: 13 }}>
